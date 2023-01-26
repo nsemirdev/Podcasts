@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DownloadsViewController.swift
 //  Podcasts
 //
 //  Created by Emir Alkal on 26.01.2023.
@@ -7,13 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+final class DownloadsViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    view.backgroundColor = .systemBackground
   }
-
-
 }
-
